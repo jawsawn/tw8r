@@ -5,8 +5,16 @@ export default function Home() {
     <div>
       <Head>
         <title>tw8r</title>
-        <meta name="description" content="bird app with 8 characters" />
         <link rel="icon" href="/bird_icon.ico" />
+
+        <meta name="title" content="tw8r"></meta>
+        <meta name="description" content="bird app with 8 characters" />
+        <meta name="keywords" content="tw8r twitter clone" />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta property="og:image" content="/bird_icon.png" />
+        <meta name="twitter:image" content="/bird_icon.png" />
       </Head>
 
       <main className="main">
@@ -16,13 +24,13 @@ export default function Home() {
               <img src="/bird_icon.png" alt="" /><h2 style={{ "display": "inline" }}>tw8r</h2>
             </div>
             <div>
-              <img src="/bird_icon.png" alt=""  /><h2 style={{ "display": "inline" ,"font-weight": "normal"}}>notifs</h2>
+              <img src="/bird_icon.png" alt="" /><h2 style={{ "display": "inline", "font-weight": "normal" }}>notifs</h2>
             </div>
             <div>
-              <img src="/bird_icon.png" alt=""  /><h2 style={{ "display": "inline","font-weight": "normal" }}>profile</h2>
+              <img src="/bird_icon.png" alt="" /><h2 style={{ "display": "inline", "font-weight": "normal" }}>profile</h2>
             </div>
             <div>
-              <img src="/bird_icon.png" alt=""  /><h2 style={{ "display": "inline","font-weight": "normal" }}>more</h2>
+              <img src="/bird_icon.png" alt="" /><h2 style={{ "display": "inline", "font-weight": "normal" }}>more</h2>
             </div>
           </div>
         </div>
